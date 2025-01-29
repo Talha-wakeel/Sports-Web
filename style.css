@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E1E8F0;
+}
+
+/* header css */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+   }
+
+.logo{
+    font-family: "Alex Brush", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+  }
+
+  .navbar{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  a{
+    text-decoration: none;
+    color: #262626;
+  }
+
+  .btn-submit{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+    margin: 5px 0;
+    background: #B8C2CE;
+    border: #B8C2CE;
+    border-radius: 6px;
+    
+  }
+  .btn-submit:hover{
+    background:#434a52 ;
+    cursor: pointer;
+  }
+
+  .btn-img{
+    padding-left: 10px;
+  }
+
+/* -----MAIN */
+
+.basketball-img{
+    position: relative;
+}
+
+.ball-text{
+    position: absolute;
+    top: 190px;
+    left: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 489px;
+    font-weight: 900;
+    font-size: 60px;
+    opacity: 60%;
+    text-decoration: #434a52;
+}
+
+span{
+  opacity: 50%;
+}
+
+.player{
+  position: absolute;
+  top: 75px;
+  left: 355px;
+}
+
+.news{
+  position: absolute;
+  top: 100px;
+  right: 20px;
+}
+
+.text{
+  position: absolute;
+  width: 380px;
+  top: 530px;
+  right: 400px;
+}
+
+.read-btn{
+  padding: 10px;
+  background: #262626;
+  border-radius: 6px;
+  color: #E1E8F0;
+  cursor: pointer;
+}
